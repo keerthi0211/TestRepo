@@ -8,7 +8,7 @@ def SelectionSort(arr):
         arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr
 
-arr = input("Enter a list of numbers (space-separated): ").split()
+arr = input("Enter a list of (space-separated): ").split()
 arr = [int(num) for num in arr]
 sorted_arr=SelectionSort(arr)
 print("sorted array is :", sorted_arr)
